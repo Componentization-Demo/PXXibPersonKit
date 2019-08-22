@@ -1,0 +1,52 @@
+PODS:
+  - CTMediator (25)
+  - PXCommonKit (2)
+  - PXPersonInfoCatogeryKit (1):
+    - CTMediator
+  - PXPersonInfoKit (1):
+    - PXCommonKit
+    - PXPersonPrefrenceCatogeryKit
+  - PXPersonPrefenceKit (1)
+  - PXPersonPrefrenceCatogeryKit (1):
+    - CTMediator
+  - PXXibPersonCatogeryKit (1):
+    - CTMediator
+  - PXXibPersonKit (1):
+    - PXCommonKit
+    - PXXibPersonCatogeryKit
+
+DEPENDENCIES:
+  - PXPersonInfoCatogeryKit
+  - PXPersonInfoKit
+  - PXPersonPrefenceKit
+  - PXPersonPrefrenceCatogeryKit
+  - PXXibPersonKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+  https://github.com/componentizationdemo/PXModulSpecs.git:
+    - PXCommonKit
+    - PXPersonInfoCatogeryKit
+    - PXPersonInfoKit
+    - PXPersonPrefenceKit
+    - PXPersonPrefrenceCatogeryKit
+    - PXXibPersonCatogeryKit
+
+EXTERNAL SOURCES:
+  PXXibPersonKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  PXCommonKit: 767f3c5889c0c71e81cad86798fe04e72e7ae32f
+  PXPersonInfoCatogeryKit: e306eb09a669c00024c319c7e44e705eb63f5a15
+  PXPersonInfoKit: efcdc3c546ea47b4696e4bed8db6da4b2895b3d4
+  PXPersonPrefenceKit: 315c57b170041bdfc71980070f55916bbd869883
+  PXPersonPrefrenceCatogeryKit: 7120b929bd36d6a107bfd89630defdd2872cbc9f
+  PXXibPersonCatogeryKit: dbd5d7316e889a9b76b8087a46d4469cf82f0721
+  PXXibPersonKit: ce801909395e766d4b5ca002a497347583ab90bc
+
+PODFILE CHECKSUM: c55895fece76e848e8255906ee416111aa4115a4
+
+COCOAPODS: 1.7.5

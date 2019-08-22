@@ -1,0 +1,6 @@
+framework module PXCommonKit {
+  umbrella header "PXCommonKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

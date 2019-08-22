@@ -1,0 +1,6 @@
+framework module PXPersonPrefrenceCatogeryKit {
+  umbrella header "PXPersonPrefrenceCatogeryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

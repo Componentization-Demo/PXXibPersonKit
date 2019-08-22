@@ -1,0 +1,6 @@
+framework module PXXibPersonCatogeryKit {
+  umbrella header "PXXibPersonCatogeryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

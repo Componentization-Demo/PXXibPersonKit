@@ -1,0 +1,6 @@
+framework module PXXibPersonKit {
+  umbrella header "PXXibPersonKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

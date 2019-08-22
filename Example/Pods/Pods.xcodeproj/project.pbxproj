@@ -1,0 +1,2418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BD2582A783676040BEF82B7F6A9885 /* Target_PXPersonInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE3F7CB2B2E799DBD63789317D6CE70 /* Target_PXPersonInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A7AB8AB06600CDF729FF064EAA9A236 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AE90CAD8FBE431EAE8ED6EA7706171 /* Foundation.framework */; };
+		248EA0F9DB0C0DAEB8462E1DF70023F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AE90CAD8FBE431EAE8ED6EA7706171 /* Foundation.framework */; };
+		271A92193BBAA640ABECC066C2F99FE5 /* PXPersonPrefenceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B75059FBA2C73B960395DD968A1EF4F /* PXPersonPrefenceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EB7A7B2F354BAA9F7D3EEF3202AFC5C /* CTMediator+PersonInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDB58EFD6400D6F3E1CA926448296A5 /* CTMediator+PersonInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39CB5A6A85E596886A7C6C6A69F345BB /* CTMediator+PersonPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D1D87161FD8A9352571CB9C94BA34 /* CTMediator+PersonPreference.m */; };
+		3C143850B2935E66778690E3C6C929A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AE90CAD8FBE431EAE8ED6EA7706171 /* Foundation.framework */; };
+		3C98A9F4E079E326EE8BDBB973C595F7 /* CTMediator+PersonInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 742141EF79CAAD4D28FDD6D145034FC8 /* CTMediator+PersonInfo.m */; };
+		446FA324CF2FB533CA6FD4900728E497 /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = BB14B4280E5F652E8B8DFA356FEE009A /* person.png */; };
+		45DF78135BDA08E273F3804A623E026F /* PXPersonPreferenceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 235F235925DFD2F9D797EB9809B15CC7 /* PXPersonPreferenceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		474AE03BC1ADF9AE8401F3B1A250F312 /* Pods-PXXibPersonKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2871FAEDA18E75ED9865D2962681C0CA /* Pods-PXXibPersonKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4876F18D69723AFFDD983E6104EB29ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AE90CAD8FBE431EAE8ED6EA7706171 /* Foundation.framework */; };
+		49C1D7884335AE27C819532A552A3BCE /* PXPersonInfoKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D1DA13085686376E84289806FE39A5A /* PXPersonInfoKit.bundle */; };
+		4BF35E59AF97A8D68F3719DB022A2302 /* PXPersonPrefenceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 446A9BE48FBA36101DDE54C7BC81845A /* PXPersonPrefenceKit-dummy.m */; };
+		4DB0CB58A081BF92444EE786A4F5A435 /* PXPersonPrefrenceCatogeryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 376A4D96479367C55907A10BB760ED04 /* PXPersonPrefrenceCatogeryKit-dummy.m */; };
+		52A311A42B1B9D280F626D02DEBFAE24 /* NSBundle+SubBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE7C3175ED68311E2428CB1F79F1D92 /* NSBundle+SubBundle.m */; };
+		53EAFEE242700040A1580D73AD49D6C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AE90CAD8FBE431EAE8ED6EA7706171 /* Foundation.framework */; };
+		598818E4CACC4C8F5363766F9B828E76 /* CTMediator+XibPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E453923D80876D758F971384DF3C8C3 /* CTMediator+XibPerson.m */; };
+		5C439214C4261C8BFD111D5FD4D487C4 /* Target_xibPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4045D55F291DF9DA16499C1ED7957F06 /* Target_xibPersonViewController.m */; };
+		5CD5FAE3C6CC4CFFD14905232BD76C1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AE90CAD8FBE431EAE8ED6EA7706171 /* Foundation.framework */; };
+		685B428DA7903CE09A77661071568C61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822A84FA0C51E07A3FB49DC37A018953 /* UIKit.framework */; };
+		6B26394FBEF23C543E21DD22214EBA5C /* PXPersonInfoCatogeryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D26D8597B8FC9C1FE64EECA55B1EF10 /* PXPersonInfoCatogeryKit-dummy.m */; };
+		6B385CBFB6ECC58FA8A2B7C4601E1A0D /* PXCommonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEAC9927DA3FF7AEAF1A2D5D8B5B5CF /* PXCommonKit.framework */; };
+		6E263E4E31CDC5FDEAC525163D6EDECE /* PXXibPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15970B75FA447D4C45F4C19225645F2C /* PXXibPersonViewController.xib */; };
+		6FCF4CE397A50123D42B2827703340E1 /* PXCommonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEAC9927DA3FF7AEAF1A2D5D8B5B5CF /* PXCommonKit.framework */; };
+		72C1B7ED0DC044076E627D4764B72270 /* PXXibPersonCatogeryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90CA17FDA2C285523BB6C67A640E695 /* PXXibPersonCatogeryKit.framework */; };
+		754479117D25D839AB6EF4661C88EAA0 /* Target_PXPersonPreferenceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CD346656C5B245135B9B0608E2E49D69 /* Target_PXPersonPreferenceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A47DBE54E38761F7F2884DE0B660712 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD368CDE0212850CEA1F1B9C71F50E /* CTMediator.m */; };
+		7AAD6927BF2250169F73FA86F189D12A /* PXXibPersonCatogeryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E6CEAB8908E65DC16152D016CE45C0 /* PXXibPersonCatogeryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FB5FD73DCC0B9E6F5363044FE1959F2 /* Pods-PXXibPersonKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE618E337665FE3E52944A519398870 /* Pods-PXXibPersonKit_Example-dummy.m */; };
+		81BD8638E47221C3B86E9BDF9A1FE745 /* Target_xibPersonViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F5C6680D6F9B9E729310C4D79ED0324 /* Target_xibPersonViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84297D4C0BE0E211B4F3007E9B75DE35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AE90CAD8FBE431EAE8ED6EA7706171 /* Foundation.framework */; };
+		8520B5EBA03CC672116DE2799F85EB1C /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F133292FAED88C2EB78AE28B9264FE7 /* CTMediator.framework */; };
+		8D50DFA7E96F8E3BF124DFE690CA914B /* PXPersonPrefrenceCatogeryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518DBBF5A0B220ADBDE52DB1E539BC6C /* PXPersonPrefrenceCatogeryKit.framework */; };
+		8D7992DD793B166526C10AAABC55F012 /* PXXibPersonViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F1700B757AEFBDC87CE0A049A2026B92 /* PXXibPersonViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F6D9FEF8BF25209653E97DB78CEF936 /* NSBundle+SubBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F31764F3C0BF9E39D7FB2B316F52B4 /* NSBundle+SubBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93139E9206977B06783B8AC615FAE676 /* Pods-PXXibPersonKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 708C94E1D4C19ED14C40F25947B95B4D /* Pods-PXXibPersonKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95D872431562E410D5325F52F899D7C4 /* PXCommonKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF672DAD509D6565020053198425533 /* PXCommonKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		960D59A538B4E98862A1159052F557B9 /* PXPersonInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A17742218A67E8C34AE3F35FB59F5806 /* PXPersonInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9637C10EC761020372537E811C498BC9 /* Pods-PXXibPersonKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EB40320F50449E2290E2EC6B79E776 /* Pods-PXXibPersonKit_Tests-dummy.m */; };
+		98D07B1362E477B2DFD028EF008E1934 /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 633FCE386CD39A0E0B785284C578A3C3 /* person.png */; };
+		9E285CDA4D049B00AC629A0CEAE4D369 /* PXPersonPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9D95971038D937B549C78EE0F63A64 /* PXPersonPreferenceViewController.m */; };
+		A0DED08BB2B0F70E8738A72C42FF0366 /* PXPersonInfoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A499070B4B36B672590BBA330E90270 /* PXPersonInfoKit-dummy.m */; };
+		A9BA8B021510B49C3EC42F515BE4D158 /* PXXibPersonKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E556304014BD2EB1C2FF251259069591 /* PXXibPersonKit.bundle */; };
+		AEA058D390A4A32A1926933FB25708CF /* PXPersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0E3DE7A279C1FD644928FB6C65B0EE /* PXPersonInfoViewController.m */; };
+		B0DAF83FCD6CCF7E94ECAB3DFB3E4BC3 /* CTMediator+PersonPreference.h in Headers */ = {isa = PBXBuildFile; fileRef = 4410B804377C6A13E69BFDA256867E14 /* CTMediator+PersonPreference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B938627965371532CEDDF7FB4C709AE4 /* Target_PXPersonPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF065061E42074A88BB7260FDE1D3A2 /* Target_PXPersonPreferenceViewController.m */; };
+		BF3E4B64DFC562BDE1E7D5A8EAC5889D /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F133292FAED88C2EB78AE28B9264FE7 /* CTMediator.framework */; };
+		C28808161B07F9F9AA770CF5E0507898 /* PXXibPersonCatogeryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF749FB66AB3CFEB899A739B873F9C8 /* PXXibPersonCatogeryKit-dummy.m */; };
+		C6FB778AF44FF045D36FA4DC5C996B23 /* UIImage+pxBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5A7433D5E6C5A98A2498D4BDF3FB0D /* UIImage+pxBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7C77D877AFAC85DA23139CBBBBF85BB /* PXPersonInfoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35CC07B788242FBFAFF752C55B0C7D59 /* PXPersonInfoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9A3023CA50D5005F17239C0FC00BDDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AE90CAD8FBE431EAE8ED6EA7706171 /* Foundation.framework */; };
+		C9D1CB09EE49A82B759B929618586E75 /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C51FE284C81D1119D8C04F5C404C8E5A /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDEE814A559141101BF86824A4F12EB3 /* PXXibPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BF95E0676F2ABD8964DF31CB77548E /* PXXibPersonViewController.m */; };
+		D10C295774B1DECF1CA5B3B7B82A42E8 /* UIImage+pxBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2BA6F7B379562FAFD9BF06E040ADD7 /* UIImage+pxBundle.m */; };
+		D12592FDE1E7ED6EECBF612924FF8679 /* Target_PXPersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94535E3A68D8CDADA4A7B385F20A400E /* Target_PXPersonInfoViewController.m */; };
+		D205B14722886E2457509237B68553F1 /* PXPersonInfoCatogeryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C295B36F02011D4FEAFCFB7D3B43F1F /* PXPersonInfoCatogeryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D32B514299283BB33956EA5D0DD433DA /* PXXibPersonKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2144701BDE56AB9F0B034A272AD96A6A /* PXXibPersonKit-dummy.m */; };
+		D491A388BB3045DDDF620C4E0D3259B6 /* CTMediator+XibPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = B864F270BDF064FC2E68FE6B44C2875B /* CTMediator+XibPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7E801D9DE11CC567592A19ECD93B2D6 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F71D6D8DF1EA882C52DB74B6CE8622 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB682EA2E574163D980391F48B4D4AFD /* PXXibPersonKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70556A46FDCB24936A17A165F5315553 /* PXXibPersonKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC0D0D8467D2D87084ACF6EF3438A917 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AE90CAD8FBE431EAE8ED6EA7706171 /* Foundation.framework */; };
+		E73EEAFFB9533F32313735D9F7B20579 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 979002CC28BDEF01232A08FAE75CFAE3 /* CTMediator-dummy.m */; };
+		EAF9924A7D0671CA1CB543ADEB673770 /* PXCommonKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F4A306FCF92DA4AA415C47B58B89F2 /* PXCommonKit-dummy.m */; };
+		EDFCFC2E71E6B9BE5ACAEA3EE66995B7 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F133292FAED88C2EB78AE28B9264FE7 /* CTMediator.framework */; };
+		F2E36CCE31EDF4192EF14CD1E6AD6BB1 /* PXPersonPrefrenceCatogeryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8E558C4788AAEDD2B7393AA739FAE83 /* PXPersonPrefrenceCatogeryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8160C303B729252164E3FF840BF401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AE90CAD8FBE431EAE8ED6EA7706171 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CCFEDF0DB85227E6C80F2D7CC47F8B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		3819606F07BA8A7971724335E850792F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E78A88B5FD4B0FA070AC051BF34A477;
+			remoteInfo = PXPersonInfoKit;
+		};
+		45C0AE8FD4B912078C683E6E8CE210A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04438F372064852255F60BE49DDEE508;
+			remoteInfo = PXXibPersonCatogeryKit;
+		};
+		5AA79BD284A78155B35BA0042B62D9A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DE88D60EC18A9F8E7AAE5991B1DE936;
+			remoteInfo = PXPersonPrefrenceCatogeryKit;
+		};
+		5AAB64137B4286D1C3380C0D4AF10103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		61F8268BE82CFE6EFEB1BE9629DD4D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56EE353FA02572CDD3BF12CBD3BE9A75;
+			remoteInfo = "Pods-PXXibPersonKit_Example";
+		};
+		72DE42D88C449154224CCD74E2FE6923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D089477581173493535E1BF7BEF980E0;
+			remoteInfo = "PXPersonInfoKit-PXPersonInfoKit";
+		};
+		7E466592517146B3FB2DBF00BAAD4404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CB33409F323CF778DEAEB7679E145AB;
+			remoteInfo = "PXXibPersonKit-PXXibPersonKit";
+		};
+		86687C4886D823BAFF85CDD20FDCD3D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04438F372064852255F60BE49DDEE508;
+			remoteInfo = PXXibPersonCatogeryKit;
+		};
+		9BC3F8FBF4BA11773566BE7E2A85EE14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD655C62FD5D83CD233F5053FFCF347A;
+			remoteInfo = PXPersonPrefenceKit;
+		};
+		ABA15E3934350EFC82E535A51356F23E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DE88D60EC18A9F8E7AAE5991B1DE936;
+			remoteInfo = PXPersonPrefrenceCatogeryKit;
+		};
+		D01914715DD454D541500128B83A2909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A234D93608FD6701DF86EEF5D56B61C0;
+			remoteInfo = PXPersonInfoCatogeryKit;
+		};
+		E11F175A425E2223861D0D6DEB66912D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		E503E1FCAFEB8AEFAA830E6E330C076B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		EC9717CCBAA83A721027DDF70CA533AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EF1EC18E975364A5E73D79D4E371E8F;
+			remoteInfo = PXCommonKit;
+		};
+		ECC10AE5EE2EBBE879E5F42A75D0BD7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EF1EC18E975364A5E73D79D4E371E8F;
+			remoteInfo = PXCommonKit;
+		};
+		FAC68FB9048FB9ED209376EC73393BB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EF1EC18E975364A5E73D79D4E371E8F;
+			remoteInfo = PXCommonKit;
+		};
+		FC1727BF0C10B66119239B1206A31A03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF4D8D43B5DB04100DAE50BE463729D8;
+			remoteInfo = PXXibPersonKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003B57D0A6C95061998FFD43FA7E2A2F /* PXPersonInfoCatogeryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PXPersonInfoCatogeryKit.modulemap; sourceTree = "<group>"; };
+		059F2FCD461E482819CCB2D9AC0339E2 /* PXCommonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXCommonKit-prefix.pch"; sourceTree = "<group>"; };
+		07872FED16C28DC607FDEC14504B9F7F /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		0C295B36F02011D4FEAFCFB7D3B43F1F /* PXPersonInfoCatogeryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXPersonInfoCatogeryKit-umbrella.h"; sourceTree = "<group>"; };
+		0D1DA13085686376E84289806FE39A5A /* PXPersonInfoKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PXPersonInfoKit.bundle; path = "PXPersonInfoKit-PXPersonInfoKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D25D7EE24F930C04B9F6345459AFC49 /* PXCommonKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PXCommonKit.modulemap; sourceTree = "<group>"; };
+		124D8D74C0D87B660860434A8520AB45 /* Pods-PXXibPersonKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PXXibPersonKit_Tests.modulemap"; sourceTree = "<group>"; };
+		15970B75FA447D4C45F4C19225645F2C /* PXXibPersonViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PXXibPersonViewController.xib; path = PXXibPersonKit/Assets/PXXibPersonViewController.xib; sourceTree = "<group>"; };
+		1AF065061E42074A88BB7260FDE1D3A2 /* Target_PXPersonPreferenceViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_PXPersonPreferenceViewController.m; path = PXPersonPrefenceKit/Classes/Target_PXPersonPreferenceViewController.m; sourceTree = "<group>"; };
+		1CE618E337665FE3E52944A519398870 /* Pods-PXXibPersonKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXXibPersonKit_Example-dummy.m"; sourceTree = "<group>"; };
+		1F00A5A24EC268ACED22917E189525D3 /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		1F133292FAED88C2EB78AE28B9264FE7 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2144701BDE56AB9F0B034A272AD96A6A /* PXXibPersonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXXibPersonKit-dummy.m"; sourceTree = "<group>"; };
+		2287FD9FCC8C3B66B94A0731CE1FAB56 /* PXPersonInfoCatogeryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PXPersonInfoCatogeryKit-Info.plist"; sourceTree = "<group>"; };
+		235F235925DFD2F9D797EB9809B15CC7 /* PXPersonPreferenceViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPersonPreferenceViewController.h; path = PXPersonPrefenceKit/Classes/PXPersonPreferenceViewController.h; sourceTree = "<group>"; };
+		2847439697AA83A784BDA2EA53995942 /* PXCommonKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXCommonKit.xcconfig; sourceTree = "<group>"; };
+		2871FAEDA18E75ED9865D2962681C0CA /* Pods-PXXibPersonKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXXibPersonKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		2A153F422FF0AC43617E2A6F6AA1E107 /* PXXibPersonCatogeryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PXXibPersonCatogeryKit.modulemap; sourceTree = "<group>"; };
+		2CDB58EFD6400D6F3E1CA926448296A5 /* CTMediator+PersonInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+PersonInfo.h"; path = "PXPersonInfoCatogeryKit/Classes/CTMediator+PersonInfo.h"; sourceTree = "<group>"; };
+		2EB386C04028837DEE974AFF46AD464E /* PXPersonPrefrenceCatogeryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PXPersonPrefrenceCatogeryKit.modulemap; sourceTree = "<group>"; };
+		3006760F77B5AF28DBF4014E12DF0FCB /* PXPersonPrefrenceCatogeryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXPersonPrefrenceCatogeryKit-prefix.pch"; sourceTree = "<group>"; };
+		35CC07B788242FBFAFF752C55B0C7D59 /* PXPersonInfoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXPersonInfoKit-umbrella.h"; sourceTree = "<group>"; };
+		3611D6B8B3FCD25EF86B7C5C71AB0EE3 /* Pods-PXXibPersonKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXXibPersonKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		376A4D96479367C55907A10BB760ED04 /* PXPersonPrefrenceCatogeryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXPersonPrefrenceCatogeryKit-dummy.m"; sourceTree = "<group>"; };
+		3D26D8597B8FC9C1FE64EECA55B1EF10 /* PXPersonInfoCatogeryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXPersonInfoCatogeryKit-dummy.m"; sourceTree = "<group>"; };
+		3E4D1D87161FD8A9352571CB9C94BA34 /* CTMediator+PersonPreference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+PersonPreference.m"; path = "PXPersonPrefrenceCatogeryKit/Classes/CTMediator+PersonPreference.m"; sourceTree = "<group>"; };
+		3EE38EB78733E6FCF087FE260FB56FAD /* PXXibPersonKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PXXibPersonKit.modulemap; sourceTree = "<group>"; };
+		401669FB8163DDAEB48397A50EEA6C16 /* PXXibPersonKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PXXibPersonKit-Info.plist"; sourceTree = "<group>"; };
+		4045D55F291DF9DA16499C1ED7957F06 /* Target_xibPersonViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_xibPersonViewController.m; path = PXXibPersonKit/Classes/Target_xibPersonViewController.m; sourceTree = "<group>"; };
+		43F4A306FCF92DA4AA415C47B58B89F2 /* PXCommonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXCommonKit-dummy.m"; sourceTree = "<group>"; };
+		4410B804377C6A13E69BFDA256867E14 /* CTMediator+PersonPreference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+PersonPreference.h"; path = "PXPersonPrefrenceCatogeryKit/Classes/CTMediator+PersonPreference.h"; sourceTree = "<group>"; };
+		446A9BE48FBA36101DDE54C7BC81845A /* PXPersonPrefenceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXPersonPrefenceKit-dummy.m"; sourceTree = "<group>"; };
+		46F6342E48C626498A9D8A041B9CD1D9 /* Pods-PXXibPersonKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXXibPersonKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4A499070B4B36B672590BBA330E90270 /* PXPersonInfoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXPersonInfoKit-dummy.m"; sourceTree = "<group>"; };
+		4BA4B16F705C5A0AAB42EC1BF35622B3 /* PXPersonPrefrenceCatogeryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXPersonPrefrenceCatogeryKit.xcconfig; sourceTree = "<group>"; };
+		4D1F8F80A4BB7A5BA3394157DCC2DBE1 /* PXPersonInfoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PXPersonInfoKit-Info.plist"; sourceTree = "<group>"; };
+		4FE3F7CB2B2E799DBD63789317D6CE70 /* Target_PXPersonInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_PXPersonInfoViewController.h; path = PXPersonInfoKit/Classes/Target_PXPersonInfoViewController.h; sourceTree = "<group>"; };
+		50EEF2A7860CCAF8D3513DA2117939BD /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		518DBBF5A0B220ADBDE52DB1E539BC6C /* PXPersonPrefrenceCatogeryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXPersonPrefrenceCatogeryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F71D6D8DF1EA882C52DB74B6CE8622 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		5B0DCB47C965CCE207BDB3DE632B82AC /* PXPersonInfoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXPersonInfoKit.xcconfig; sourceTree = "<group>"; };
+		5C2F643B4250F6AF055942AAB5EF6E4A /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
+		5DA2EC86E3DD18B9A72D349A4ACF6181 /* PXPersonInfoCatogeryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PXPersonInfoCatogeryKit.framework; path = PXPersonInfoCatogeryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECD368CDE0212850CEA1F1B9C71F50E /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		5F0E3DE7A279C1FD644928FB6C65B0EE /* PXPersonInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXPersonInfoViewController.m; path = PXPersonInfoKit/Classes/PXPersonInfoViewController.m; sourceTree = "<group>"; };
+		5F5C6680D6F9B9E729310C4D79ED0324 /* Target_xibPersonViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_xibPersonViewController.h; path = PXXibPersonKit/Classes/Target_xibPersonViewController.h; sourceTree = "<group>"; };
+		6146ADFDC3C969B83E31828E286E7BA5 /* Pods-PXXibPersonKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXXibPersonKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6293E7017F2CC2D966B0A99AEF899F6C /* PXCommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PXCommonKit.framework; path = PXCommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633FCE386CD39A0E0B785284C578A3C3 /* person.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = person.png; path = PXPersonInfoKit/Assets/person.png; sourceTree = "<group>"; };
+		65F7CA2D960B7BC613F0E708F8C1484F /* Pods-PXXibPersonKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXXibPersonKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		67AE90CAD8FBE431EAE8ED6EA7706171 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB2AF963EC51DA8E94076CE04D01566 /* PXXibPersonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PXXibPersonKit.framework; path = PXXibPersonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE7C3175ED68311E2428CB1F79F1D92 /* NSBundle+SubBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+SubBundle.m"; path = "PXXibPersonKit/Classes/NSBundle+SubBundle.m"; sourceTree = "<group>"; };
+		704E74A566DC11D0D225B38C197CFEC6 /* PXPersonPrefenceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PXPersonPrefenceKit.framework; path = PXPersonPrefenceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70556A46FDCB24936A17A165F5315553 /* PXXibPersonKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXXibPersonKit-umbrella.h"; sourceTree = "<group>"; };
+		708C94E1D4C19ED14C40F25947B95B4D /* Pods-PXXibPersonKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXXibPersonKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		720F448C1E06468F356F933F3F190B0D /* PXPersonPrefrenceCatogeryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PXPersonPrefrenceCatogeryKit.framework; path = PXPersonPrefrenceCatogeryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		742141EF79CAAD4D28FDD6D145034FC8 /* CTMediator+PersonInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+PersonInfo.m"; path = "PXPersonInfoCatogeryKit/Classes/CTMediator+PersonInfo.m"; sourceTree = "<group>"; };
+		75326BE5E763849BDAB7E829243BC761 /* PXXibPersonCatogeryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PXXibPersonCatogeryKit.framework; path = PXXibPersonCatogeryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E453923D80876D758F971384DF3C8C3 /* CTMediator+XibPerson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+XibPerson.m"; path = "PXXibPersonCatogeryKit/Classes/CTMediator+XibPerson.m"; sourceTree = "<group>"; };
+		822A84FA0C51E07A3FB49DC37A018953 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		83C0E0D267DC9ACB48B979EB4223BB2F /* Pods-PXXibPersonKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXXibPersonKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		8589CE61DE0DA4E6D8874140DC5C71AB /* PXPersonInfoCatogeryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXPersonInfoCatogeryKit.xcconfig; sourceTree = "<group>"; };
+		88724319D2EFC186B6365D91F56EA3CD /* PXXibPersonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXXibPersonKit-prefix.pch"; sourceTree = "<group>"; };
+		8970E72F3ED6381FDA4465712F8C8BC7 /* PXXibPersonCatogeryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PXXibPersonCatogeryKit-Info.plist"; sourceTree = "<group>"; };
+		8B75059FBA2C73B960395DD968A1EF4F /* PXPersonPrefenceKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXPersonPrefenceKit-umbrella.h"; sourceTree = "<group>"; };
+		8C2C31FD08761C294DD792293E661B20 /* PXPersonPrefenceKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PXPersonPrefenceKit-Info.plist"; sourceTree = "<group>"; };
+		8E0BF4062A80178B52E2623E75CDAAC4 /* Pods_PXXibPersonKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PXXibPersonKit_Example.framework; path = "Pods-PXXibPersonKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8639663C2A4842E80BDEE4D79ECAF8 /* ResourceBundle-PXXibPersonKit-PXXibPersonKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PXXibPersonKit-PXXibPersonKit-Info.plist"; sourceTree = "<group>"; };
+		8F6EE74C8422DC453E2CB78F490702F5 /* PXPersonInfoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PXPersonInfoKit.framework; path = PXPersonInfoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		903C10D86093AADADB1D0AD7AAFB9B11 /* PXPersonInfoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXPersonInfoKit-prefix.pch"; sourceTree = "<group>"; };
+		9169DDDB6214518D78CBFF6F101AD10B /* PXPersonPrefenceKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXPersonPrefenceKit.xcconfig; sourceTree = "<group>"; };
+		91ACD624DE832D357D46616C9CCDA26A /* PXCommonKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PXCommonKit-Info.plist"; sourceTree = "<group>"; };
+		92EEB0469E913E1088872C7537F288D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		94535E3A68D8CDADA4A7B385F20A400E /* Target_PXPersonInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_PXPersonInfoViewController.m; path = PXPersonInfoKit/Classes/Target_PXPersonInfoViewController.m; sourceTree = "<group>"; };
+		979002CC28BDEF01232A08FAE75CFAE3 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E8775E4D0E976CAC1E3BC3ECB8FD08D /* Pods-PXXibPersonKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXXibPersonKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9EFB1EFA49124A7EE62AEAD97AE5852B /* PXPersonPrefenceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PXPersonPrefenceKit.modulemap; sourceTree = "<group>"; };
+		A17742218A67E8C34AE3F35FB59F5806 /* PXPersonInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPersonInfoViewController.h; path = PXPersonInfoKit/Classes/PXPersonInfoViewController.h; sourceTree = "<group>"; };
+		A5B22D7FD863FA2574B36EA71654C97E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A90CA17FDA2C285523BB6C67A640E695 /* PXXibPersonCatogeryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXXibPersonCatogeryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EDF923780F1CCD37BEB6FFC21945FE /* PXXibPersonCatogeryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXXibPersonCatogeryKit-prefix.pch"; sourceTree = "<group>"; };
+		B085FAF173279513E952BD18F99B3274 /* ResourceBundle-PXPersonInfoKit-PXPersonInfoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PXPersonInfoKit-PXPersonInfoKit-Info.plist"; sourceTree = "<group>"; };
+		B1EB40320F50449E2290E2EC6B79E776 /* Pods-PXXibPersonKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXXibPersonKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		B2436B8AB253A4C18E80F220CFC59E90 /* PXPersonInfoCatogeryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXPersonInfoCatogeryKit-prefix.pch"; sourceTree = "<group>"; };
+		B398921B503CBFC4EF72E3D23AC0F0A0 /* Pods-PXXibPersonKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXXibPersonKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3E1F71EAF0566A68B1DF272758AEAD1 /* PXPersonPrefrenceCatogeryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PXPersonPrefrenceCatogeryKit-Info.plist"; sourceTree = "<group>"; };
+		B864F270BDF064FC2E68FE6B44C2875B /* CTMediator+XibPerson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+XibPerson.h"; path = "PXXibPersonCatogeryKit/Classes/CTMediator+XibPerson.h"; sourceTree = "<group>"; };
+		BB14B4280E5F652E8B8DFA356FEE009A /* person.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = person.png; path = PXXibPersonKit/Assets/person.png; sourceTree = "<group>"; };
+		BC74746D7F4CAF776987AE9675C105AC /* Pods_PXXibPersonKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PXXibPersonKit_Tests.framework; path = "Pods-PXXibPersonKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7894FDF1743D28B8D026074516481C /* PXXibPersonKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PXXibPersonKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C149E69886CC95EE161B93C7B0ABA113 /* Pods-PXXibPersonKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXXibPersonKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C51FE284C81D1119D8C04F5C404C8E5A /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		C9E6CEAB8908E65DC16152D016CE45C0 /* PXXibPersonCatogeryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXXibPersonCatogeryKit-umbrella.h"; sourceTree = "<group>"; };
+		CC1754BE9553C0F96487E30CD6B50C7D /* PXPersonInfoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PXPersonInfoKit.modulemap; sourceTree = "<group>"; };
+		CD346656C5B245135B9B0608E2E49D69 /* Target_PXPersonPreferenceViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_PXPersonPreferenceViewController.h; path = PXPersonPrefenceKit/Classes/Target_PXPersonPreferenceViewController.h; sourceTree = "<group>"; };
+		CEF749FB66AB3CFEB899A739B873F9C8 /* PXXibPersonCatogeryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXXibPersonCatogeryKit-dummy.m"; sourceTree = "<group>"; };
+		CFD2E2670F3C51E43B6C53A6707F6B4C /* Pods-PXXibPersonKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PXXibPersonKit_Example.modulemap"; sourceTree = "<group>"; };
+		D53295D5F576384EF3D63B50DBB271CA /* PXPersonPrefenceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXPersonPrefenceKit-prefix.pch"; sourceTree = "<group>"; };
+		DB9D95971038D937B549C78EE0F63A64 /* PXPersonPreferenceViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXPersonPreferenceViewController.m; path = PXPersonPrefenceKit/Classes/PXPersonPreferenceViewController.m; sourceTree = "<group>"; };
+		DC5A7433D5E6C5A98A2498D4BDF3FB0D /* UIImage+pxBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+pxBundle.h"; path = "PXCommonKit/Classes/UIImage+pxBundle.h"; sourceTree = "<group>"; };
+		DEEAC9927DA3FF7AEAF1A2D5D8B5B5CF /* PXCommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PXCommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF672DAD509D6565020053198425533 /* PXCommonKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXCommonKit-umbrella.h"; sourceTree = "<group>"; };
+		E556304014BD2EB1C2FF251259069591 /* PXXibPersonKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PXXibPersonKit.bundle; path = "PXXibPersonKit-PXXibPersonKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F31764F3C0BF9E39D7FB2B316F52B4 /* NSBundle+SubBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+SubBundle.h"; path = "PXXibPersonKit/Classes/NSBundle+SubBundle.h"; sourceTree = "<group>"; };
+		E8E558C4788AAEDD2B7393AA739FAE83 /* PXPersonPrefrenceCatogeryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXPersonPrefrenceCatogeryKit-umbrella.h"; sourceTree = "<group>"; };
+		EA877D85652641D3ADC31594E7FEA190 /* Pods-PXXibPersonKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXXibPersonKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EC064A3419B76E30ACDC6ED490757CB8 /* Pods-PXXibPersonKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXXibPersonKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EC2BA6F7B379562FAFD9BF06E040ADD7 /* UIImage+pxBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+pxBundle.m"; path = "PXCommonKit/Classes/UIImage+pxBundle.m"; sourceTree = "<group>"; };
+		F1700B757AEFBDC87CE0A049A2026B92 /* PXXibPersonViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXXibPersonViewController.h; path = PXXibPersonKit/Classes/PXXibPersonViewController.h; sourceTree = "<group>"; };
+		F288DFEC536D3A79833BE70D52B9C607 /* PXXibPersonKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXXibPersonKit.xcconfig; sourceTree = "<group>"; };
+		F31BDB68DDCB729CF817669AC91BA50C /* Pods-PXXibPersonKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXXibPersonKit_Example-Info.plist"; sourceTree = "<group>"; };
+		F8BF95E0676F2ABD8964DF31CB77548E /* PXXibPersonViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXXibPersonViewController.m; path = PXXibPersonKit/Classes/PXXibPersonViewController.m; sourceTree = "<group>"; };
+		FB1F926CE8CF48B3A14272B4B1775F13 /* PXXibPersonCatogeryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXXibPersonCatogeryKit.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		138A4821A21F8DEF608657A89DD7A1A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7AB8AB06600CDF729FF064EAA9A236 /* Foundation.framework in Frameworks */,
+				6B385CBFB6ECC58FA8A2B7C4601E1A0D /* PXCommonKit.framework in Frameworks */,
+				72C1B7ED0DC044076E627D4764B72270 /* PXXibPersonCatogeryKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173D9DEC7E969FF64FF9D062DCB68F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD5FAE3C6CC4CFFD14905232BD76C1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F6CDF85FC8F23D1FB758A50B4D40DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248EA0F9DB0C0DAEB8462E1DF70023F5 /* Foundation.framework in Frameworks */,
+				6FCF4CE397A50123D42B2827703340E1 /* PXCommonKit.framework in Frameworks */,
+				8D50DFA7E96F8E3BF124DFE690CA914B /* PXPersonPrefrenceCatogeryKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7545F32ED301D5168C24AC930F7F6783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0D0D8467D2D87084ACF6EF3438A917 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8F8059C3E29B1D83B773AEB5B8E31D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8520B5EBA03CC672116DE2799F85EB1C /* CTMediator.framework in Frameworks */,
+				84297D4C0BE0E211B4F3007E9B75DE35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDCA75235CFD398E7A22F58395D12F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFCFC2E71E6B9BE5ACAEA3EE66995B7 /* CTMediator.framework in Frameworks */,
+				4876F18D69723AFFDD983E6104EB29ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F89CFE15A2FBE8C6E3913E4B888C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A3023CA50D5005F17239C0FC00BDDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8954492C4FC01B48DC809BEC9E82C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3E4B64DFC562BDE1E7D5A8EAC5889D /* CTMediator.framework in Frameworks */,
+				53EAFEE242700040A1580D73AD49D6C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED615A0E07D9B7D71EF02D8F1C9B239B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B906DFC3578FC8B518A37E5D8E12C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F787FDC20E1DC986B310525E8F85BC74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8160C303B729252164E3FF840BF401 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F869CEC17949B9D77FB2EC29F0BAAB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C143850B2935E66778690E3C6C929A4 /* Foundation.framework in Frameworks */,
+				685B428DA7903CE09A77661071568C61 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23891FF7E41C419D7A5A6C0D6536F256 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EE38EB78733E6FCF087FE260FB56FAD /* PXXibPersonKit.modulemap */,
+				F288DFEC536D3A79833BE70D52B9C607 /* PXXibPersonKit.xcconfig */,
+				2144701BDE56AB9F0B034A272AD96A6A /* PXXibPersonKit-dummy.m */,
+				401669FB8163DDAEB48397A50EEA6C16 /* PXXibPersonKit-Info.plist */,
+				88724319D2EFC186B6365D91F56EA3CD /* PXXibPersonKit-prefix.pch */,
+				70556A46FDCB24936A17A165F5315553 /* PXXibPersonKit-umbrella.h */,
+				8E8639663C2A4842E80BDEE4D79ECAF8 /* ResourceBundle-PXXibPersonKit-PXXibPersonKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PXXibPersonKit";
+			sourceTree = "<group>";
+		};
+		2CDA2E6FD66C206212D6E53D198770C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC1754BE9553C0F96487E30CD6B50C7D /* PXPersonInfoKit.modulemap */,
+				5B0DCB47C965CCE207BDB3DE632B82AC /* PXPersonInfoKit.xcconfig */,
+				4A499070B4B36B672590BBA330E90270 /* PXPersonInfoKit-dummy.m */,
+				4D1F8F80A4BB7A5BA3394157DCC2DBE1 /* PXPersonInfoKit-Info.plist */,
+				903C10D86093AADADB1D0AD7AAFB9B11 /* PXPersonInfoKit-prefix.pch */,
+				35CC07B788242FBFAFF752C55B0C7D59 /* PXPersonInfoKit-umbrella.h */,
+				B085FAF173279513E952BD18F99B3274 /* ResourceBundle-PXPersonInfoKit-PXPersonInfoKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PXPersonInfoKit";
+			sourceTree = "<group>";
+		};
+		2F64490AF6A8CE4D71329EFE651298DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				003B57D0A6C95061998FFD43FA7E2A2F /* PXPersonInfoCatogeryKit.modulemap */,
+				8589CE61DE0DA4E6D8874140DC5C71AB /* PXPersonInfoCatogeryKit.xcconfig */,
+				3D26D8597B8FC9C1FE64EECA55B1EF10 /* PXPersonInfoCatogeryKit-dummy.m */,
+				2287FD9FCC8C3B66B94A0731CE1FAB56 /* PXPersonInfoCatogeryKit-Info.plist */,
+				B2436B8AB253A4C18E80F220CFC59E90 /* PXPersonInfoCatogeryKit-prefix.pch */,
+				0C295B36F02011D4FEAFCFB7D3B43F1F /* PXPersonInfoCatogeryKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PXPersonInfoCatogeryKit";
+			sourceTree = "<group>";
+		};
+		31E7952F13CF5A5D7D73230869E5F2B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D25D7EE24F930C04B9F6345459AFC49 /* PXCommonKit.modulemap */,
+				2847439697AA83A784BDA2EA53995942 /* PXCommonKit.xcconfig */,
+				43F4A306FCF92DA4AA415C47B58B89F2 /* PXCommonKit-dummy.m */,
+				91ACD624DE832D357D46616C9CCDA26A /* PXCommonKit-Info.plist */,
+				059F2FCD461E482819CCB2D9AC0339E2 /* PXCommonKit-prefix.pch */,
+				DEF672DAD509D6565020053198425533 /* PXCommonKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PXCommonKit";
+			sourceTree = "<group>";
+		};
+		3365AA2A98C3149AE35B5AD6068B65B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */,
+				8E0BF4062A80178B52E2623E75CDAAC4 /* Pods_PXXibPersonKit_Example.framework */,
+				BC74746D7F4CAF776987AE9675C105AC /* Pods_PXXibPersonKit_Tests.framework */,
+				6293E7017F2CC2D966B0A99AEF899F6C /* PXCommonKit.framework */,
+				5DA2EC86E3DD18B9A72D349A4ACF6181 /* PXPersonInfoCatogeryKit.framework */,
+				0D1DA13085686376E84289806FE39A5A /* PXPersonInfoKit.bundle */,
+				8F6EE74C8422DC453E2CB78F490702F5 /* PXPersonInfoKit.framework */,
+				704E74A566DC11D0D225B38C197CFEC6 /* PXPersonPrefenceKit.framework */,
+				720F448C1E06468F356F933F3F190B0D /* PXPersonPrefrenceCatogeryKit.framework */,
+				75326BE5E763849BDAB7E829243BC761 /* PXXibPersonCatogeryKit.framework */,
+				E556304014BD2EB1C2FF251259069591 /* PXXibPersonKit.bundle */,
+				6DB2AF963EC51DA8E94076CE04D01566 /* PXXibPersonKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3432AEE5476FBD9CC89B3DCBBC25B078 /* PXCommonKit */ = {
+			isa = PBXGroup;
+			children = (
+				DC5A7433D5E6C5A98A2498D4BDF3FB0D /* UIImage+pxBundle.h */,
+				EC2BA6F7B379562FAFD9BF06E040ADD7 /* UIImage+pxBundle.m */,
+				31E7952F13CF5A5D7D73230869E5F2B5 /* Support Files */,
+			);
+			name = PXCommonKit;
+			path = PXCommonKit;
+			sourceTree = "<group>";
+		};
+		3C417C6CDAEBCB02A6C114F4D626A57C /* PXPersonPrefenceKit */ = {
+			isa = PBXGroup;
+			children = (
+				235F235925DFD2F9D797EB9809B15CC7 /* PXPersonPreferenceViewController.h */,
+				DB9D95971038D937B549C78EE0F63A64 /* PXPersonPreferenceViewController.m */,
+				CD346656C5B245135B9B0608E2E49D69 /* Target_PXPersonPreferenceViewController.h */,
+				1AF065061E42074A88BB7260FDE1D3A2 /* Target_PXPersonPreferenceViewController.m */,
+				AEF36732B77A51D7440A3EDDAEAC7E64 /* Support Files */,
+			);
+			name = PXPersonPrefenceKit;
+			path = PXPersonPrefenceKit;
+			sourceTree = "<group>";
+		};
+		412DC086103A2DA081BBEA049D1FF42B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				67AE90CAD8FBE431EAE8ED6EA7706171 /* Foundation.framework */,
+				822A84FA0C51E07A3FB49DC37A018953 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4B53103DA6A46585E43D3038CF21081E /* PXPersonInfoCatogeryKit */ = {
+			isa = PBXGroup;
+			children = (
+				2CDB58EFD6400D6F3E1CA926448296A5 /* CTMediator+PersonInfo.h */,
+				742141EF79CAAD4D28FDD6D145034FC8 /* CTMediator+PersonInfo.m */,
+				2F64490AF6A8CE4D71329EFE651298DF /* Support Files */,
+			);
+			name = PXPersonInfoCatogeryKit;
+			path = PXPersonInfoCatogeryKit;
+			sourceTree = "<group>";
+		};
+		5547DB1B0E929D9B6416CCE55716B827 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F133292FAED88C2EB78AE28B9264FE7 /* CTMediator.framework */,
+				DEEAC9927DA3FF7AEAF1A2D5D8B5B5CF /* PXCommonKit.framework */,
+				518DBBF5A0B220ADBDE52DB1E539BC6C /* PXPersonPrefrenceCatogeryKit.framework */,
+				A90CA17FDA2C285523BB6C67A640E695 /* PXXibPersonCatogeryKit.framework */,
+				412DC086103A2DA081BBEA049D1FF42B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579C47AF8B45B1278F67776541F95CF1 /* PXXibPersonCatogeryKit */ = {
+			isa = PBXGroup;
+			children = (
+				B864F270BDF064FC2E68FE6B44C2875B /* CTMediator+XibPerson.h */,
+				7E453923D80876D758F971384DF3C8C3 /* CTMediator+XibPerson.m */,
+				F33C14E649F47C6186A999E2FDC33C33 /* Support Files */,
+			);
+			name = PXXibPersonCatogeryKit;
+			path = PXXibPersonCatogeryKit;
+			sourceTree = "<group>";
+		};
+		5B099DD42F269AD62405F0B2628F5456 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EB386C04028837DEE974AFF46AD464E /* PXPersonPrefrenceCatogeryKit.modulemap */,
+				4BA4B16F705C5A0AAB42EC1BF35622B3 /* PXPersonPrefrenceCatogeryKit.xcconfig */,
+				376A4D96479367C55907A10BB760ED04 /* PXPersonPrefrenceCatogeryKit-dummy.m */,
+				B3E1F71EAF0566A68B1DF272758AEAD1 /* PXPersonPrefrenceCatogeryKit-Info.plist */,
+				3006760F77B5AF28DBF4014E12DF0FCB /* PXPersonPrefrenceCatogeryKit-prefix.pch */,
+				E8E558C4788AAEDD2B7393AA739FAE83 /* PXPersonPrefrenceCatogeryKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PXPersonPrefrenceCatogeryKit";
+			sourceTree = "<group>";
+		};
+		5FEC3073710812976B5672B8E19357F5 /* PXXibPersonKit */ = {
+			isa = PBXGroup;
+			children = (
+				E6F31764F3C0BF9E39D7FB2B316F52B4 /* NSBundle+SubBundle.h */,
+				6DE7C3175ED68311E2428CB1F79F1D92 /* NSBundle+SubBundle.m */,
+				F1700B757AEFBDC87CE0A049A2026B92 /* PXXibPersonViewController.h */,
+				F8BF95E0676F2ABD8964DF31CB77548E /* PXXibPersonViewController.m */,
+				5F5C6680D6F9B9E729310C4D79ED0324 /* Target_xibPersonViewController.h */,
+				4045D55F291DF9DA16499C1ED7957F06 /* Target_xibPersonViewController.m */,
+				6279EBEB2B805884C0DEA5E36923BB89 /* Pod */,
+				C3D3AF5F11CA6CA6CF5D3A76AF1DF0E1 /* Resources */,
+				23891FF7E41C419D7A5A6C0D6536F256 /* Support Files */,
+			);
+			name = PXXibPersonKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6279EBEB2B805884C0DEA5E36923BB89 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				92EEB0469E913E1088872C7537F288D2 /* LICENSE */,
+				BD7894FDF1743D28B8D026074516481C /* PXXibPersonKit.podspec */,
+				A5B22D7FD863FA2574B36EA71654C97E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7E4AAAD84F1FC833362EDA755BD3C1C7 /* Pods-PXXibPersonKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				124D8D74C0D87B660860434A8520AB45 /* Pods-PXXibPersonKit_Tests.modulemap */,
+				B398921B503CBFC4EF72E3D23AC0F0A0 /* Pods-PXXibPersonKit_Tests-acknowledgements.markdown */,
+				6146ADFDC3C969B83E31828E286E7BA5 /* Pods-PXXibPersonKit_Tests-acknowledgements.plist */,
+				B1EB40320F50449E2290E2EC6B79E776 /* Pods-PXXibPersonKit_Tests-dummy.m */,
+				83C0E0D267DC9ACB48B979EB4223BB2F /* Pods-PXXibPersonKit_Tests-Info.plist */,
+				708C94E1D4C19ED14C40F25947B95B4D /* Pods-PXXibPersonKit_Tests-umbrella.h */,
+				C149E69886CC95EE161B93C7B0ABA113 /* Pods-PXXibPersonKit_Tests.debug.xcconfig */,
+				65F7CA2D960B7BC613F0E708F8C1484F /* Pods-PXXibPersonKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-PXXibPersonKit_Tests";
+			path = "Target Support Files/Pods-PXXibPersonKit_Tests";
+			sourceTree = "<group>";
+		};
+		94CD3305CB5227BE8E570B87C7E305B1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FEC3073710812976B5672B8E19357F5 /* PXXibPersonKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9789816D1E31987308DD64FE0E278A09 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				52F71D6D8DF1EA882C52DB74B6CE8622 /* CTMediator.h */,
+				5ECD368CDE0212850CEA1F1B9C71F50E /* CTMediator.m */,
+				AB5E61E66D19B4A505EAA61D50536404 /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		AB5E61E66D19B4A505EAA61D50536404 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F00A5A24EC268ACED22917E189525D3 /* CTMediator.modulemap */,
+				07872FED16C28DC607FDEC14504B9F7F /* CTMediator.xcconfig */,
+				979002CC28BDEF01232A08FAE75CFAE3 /* CTMediator-dummy.m */,
+				5C2F643B4250F6AF055942AAB5EF6E4A /* CTMediator-Info.plist */,
+				50EEF2A7860CCAF8D3513DA2117939BD /* CTMediator-prefix.pch */,
+				C51FE284C81D1119D8C04F5C404C8E5A /* CTMediator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		AC14BCDE0114162669ECC1EFD0B15AA8 /* Pods-PXXibPersonKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CFD2E2670F3C51E43B6C53A6707F6B4C /* Pods-PXXibPersonKit_Example.modulemap */,
+				3611D6B8B3FCD25EF86B7C5C71AB0EE3 /* Pods-PXXibPersonKit_Example-acknowledgements.markdown */,
+				9E8775E4D0E976CAC1E3BC3ECB8FD08D /* Pods-PXXibPersonKit_Example-acknowledgements.plist */,
+				1CE618E337665FE3E52944A519398870 /* Pods-PXXibPersonKit_Example-dummy.m */,
+				EC064A3419B76E30ACDC6ED490757CB8 /* Pods-PXXibPersonKit_Example-frameworks.sh */,
+				F31BDB68DDCB729CF817669AC91BA50C /* Pods-PXXibPersonKit_Example-Info.plist */,
+				2871FAEDA18E75ED9865D2962681C0CA /* Pods-PXXibPersonKit_Example-umbrella.h */,
+				EA877D85652641D3ADC31594E7FEA190 /* Pods-PXXibPersonKit_Example.debug.xcconfig */,
+				46F6342E48C626498A9D8A041B9CD1D9 /* Pods-PXXibPersonKit_Example.release.xcconfig */,
+			);
+			name = "Pods-PXXibPersonKit_Example";
+			path = "Target Support Files/Pods-PXXibPersonKit_Example";
+			sourceTree = "<group>";
+		};
+		AEF36732B77A51D7440A3EDDAEAC7E64 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EFB1EFA49124A7EE62AEAD97AE5852B /* PXPersonPrefenceKit.modulemap */,
+				9169DDDB6214518D78CBFF6F101AD10B /* PXPersonPrefenceKit.xcconfig */,
+				446A9BE48FBA36101DDE54C7BC81845A /* PXPersonPrefenceKit-dummy.m */,
+				8C2C31FD08761C294DD792293E661B20 /* PXPersonPrefenceKit-Info.plist */,
+				D53295D5F576384EF3D63B50DBB271CA /* PXPersonPrefenceKit-prefix.pch */,
+				8B75059FBA2C73B960395DD968A1EF4F /* PXPersonPrefenceKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PXPersonPrefenceKit";
+			sourceTree = "<group>";
+		};
+		BA467077027BE85CA24E4B80AA37584B /* PXPersonPrefrenceCatogeryKit */ = {
+			isa = PBXGroup;
+			children = (
+				4410B804377C6A13E69BFDA256867E14 /* CTMediator+PersonPreference.h */,
+				3E4D1D87161FD8A9352571CB9C94BA34 /* CTMediator+PersonPreference.m */,
+				5B099DD42F269AD62405F0B2628F5456 /* Support Files */,
+			);
+			name = PXPersonPrefrenceCatogeryKit;
+			path = PXPersonPrefrenceCatogeryKit;
+			sourceTree = "<group>";
+		};
+		BCA6D67D98E01A41F58A924E89F67F40 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				633FCE386CD39A0E0B785284C578A3C3 /* person.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C3D3AF5F11CA6CA6CF5D3A76AF1DF0E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB14B4280E5F652E8B8DFA356FEE009A /* person.png */,
+				15970B75FA447D4C45F4C19225645F2C /* PXXibPersonViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				94CD3305CB5227BE8E570B87C7E305B1 /* Development Pods */,
+				5547DB1B0E929D9B6416CCE55716B827 /* Frameworks */,
+				D35EC548859D5F7B9631231ECB936DFD /* Pods */,
+				3365AA2A98C3149AE35B5AD6068B65B2 /* Products */,
+				EE99475EEA469261F610440717D6CE24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D35EC548859D5F7B9631231ECB936DFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9789816D1E31987308DD64FE0E278A09 /* CTMediator */,
+				3432AEE5476FBD9CC89B3DCBBC25B078 /* PXCommonKit */,
+				4B53103DA6A46585E43D3038CF21081E /* PXPersonInfoCatogeryKit */,
+				FD5130D1CED05E1D9501DD459ACA48DE /* PXPersonInfoKit */,
+				3C417C6CDAEBCB02A6C114F4D626A57C /* PXPersonPrefenceKit */,
+				BA467077027BE85CA24E4B80AA37584B /* PXPersonPrefrenceCatogeryKit */,
+				579C47AF8B45B1278F67776541F95CF1 /* PXXibPersonCatogeryKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE99475EEA469261F610440717D6CE24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC14BCDE0114162669ECC1EFD0B15AA8 /* Pods-PXXibPersonKit_Example */,
+				7E4AAAD84F1FC833362EDA755BD3C1C7 /* Pods-PXXibPersonKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F33C14E649F47C6186A999E2FDC33C33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A153F422FF0AC43617E2A6F6AA1E107 /* PXXibPersonCatogeryKit.modulemap */,
+				FB1F926CE8CF48B3A14272B4B1775F13 /* PXXibPersonCatogeryKit.xcconfig */,
+				CEF749FB66AB3CFEB899A739B873F9C8 /* PXXibPersonCatogeryKit-dummy.m */,
+				8970E72F3ED6381FDA4465712F8C8BC7 /* PXXibPersonCatogeryKit-Info.plist */,
+				A9EDF923780F1CCD37BEB6FFC21945FE /* PXXibPersonCatogeryKit-prefix.pch */,
+				C9E6CEAB8908E65DC16152D016CE45C0 /* PXXibPersonCatogeryKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PXXibPersonCatogeryKit";
+			sourceTree = "<group>";
+		};
+		FD5130D1CED05E1D9501DD459ACA48DE /* PXPersonInfoKit */ = {
+			isa = PBXGroup;
+			children = (
+				A17742218A67E8C34AE3F35FB59F5806 /* PXPersonInfoViewController.h */,
+				5F0E3DE7A279C1FD644928FB6C65B0EE /* PXPersonInfoViewController.m */,
+				4FE3F7CB2B2E799DBD63789317D6CE70 /* Target_PXPersonInfoViewController.h */,
+				94535E3A68D8CDADA4A7B385F20A400E /* Target_PXPersonInfoViewController.m */,
+				BCA6D67D98E01A41F58A924E89F67F40 /* Resources */,
+				2CDA2E6FD66C206212D6E53D198770C9 /* Support Files */,
+			);
+			name = PXPersonInfoKit;
+			path = PXPersonInfoKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		006557C17E6DBFDDA7F6B7A59ED229B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DAF83FCD6CCF7E94ECAB3DFB3E4BC3 /* CTMediator+PersonPreference.h in Headers */,
+				F2E36CCE31EDF4192EF14CD1E6AD6BB1 /* PXPersonPrefrenceCatogeryKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD9B98FBBE6E8BFD0D2536E2A2C5187 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D872431562E410D5325F52F899D7C4 /* PXCommonKit-umbrella.h in Headers */,
+				C6FB778AF44FF045D36FA4DC5C996B23 /* UIImage+pxBundle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A024B232AF22AE86BFA941CFC694412 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6D9FEF8BF25209653E97DB78CEF936 /* NSBundle+SubBundle.h in Headers */,
+				DB682EA2E574163D980391F48B4D4AFD /* PXXibPersonKit-umbrella.h in Headers */,
+				8D7992DD793B166526C10AAABC55F012 /* PXXibPersonViewController.h in Headers */,
+				81BD8638E47221C3B86E9BDF9A1FE745 /* Target_xibPersonViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DF3B252E3FD21D667F274BDB81E3CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D1CB09EE49A82B759B929618586E75 /* CTMediator-umbrella.h in Headers */,
+				D7E801D9DE11CC567592A19ECD93B2D6 /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710CD3B9F9356C48D9EF1CF2F7B276B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D491A388BB3045DDDF620C4E0D3259B6 /* CTMediator+XibPerson.h in Headers */,
+				7AAD6927BF2250169F73FA86F189D12A /* PXXibPersonCatogeryKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FCB8E95A9F670D6C207C67BA92BD9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C77D877AFAC85DA23139CBBBBF85BB /* PXPersonInfoKit-umbrella.h in Headers */,
+				960D59A538B4E98862A1159052F557B9 /* PXPersonInfoViewController.h in Headers */,
+				18BD2582A783676040BEF82B7F6A9885 /* Target_PXPersonInfoViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FE306F5B3B520A2DA0293409ECBEE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93139E9206977B06783B8AC615FAE676 /* Pods-PXXibPersonKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F325A8F01249C0BC5CD6481A7C5EA02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271A92193BBAA640ABECC066C2F99FE5 /* PXPersonPrefenceKit-umbrella.h in Headers */,
+				45DF78135BDA08E273F3804A623E026F /* PXPersonPreferenceViewController.h in Headers */,
+				754479117D25D839AB6EF4661C88EAA0 /* Target_PXPersonPreferenceViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE2A642CDA9D8B1C83FA9D19443E01D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474AE03BC1ADF9AE8401F3B1A250F312 /* Pods-PXXibPersonKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3780BDBF957A8D6C3C2F8FF03B8BE2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB7A7B2F354BAA9F7D3EEF3202AFC5C /* CTMediator+PersonInfo.h in Headers */,
+				D205B14722886E2457509237B68553F1 /* PXPersonInfoCatogeryKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04438F372064852255F60BE49DDEE508 /* PXXibPersonCatogeryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278E16E1677A9E018A4E884F6E741059 /* Build configuration list for PBXNativeTarget "PXXibPersonCatogeryKit" */;
+			buildPhases = (
+				710CD3B9F9356C48D9EF1CF2F7B276B8 /* Headers */,
+				1B3652E3E5BE7ED653F34B36A5910D89 /* Sources */,
+				B8954492C4FC01B48DC809BEC9E82C6D /* Frameworks */,
+				1E4FABF25A722E1BA3F502E0A8769D38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B85FE01BF472B61C690C9A2B72195F9 /* PBXTargetDependency */,
+			);
+			name = PXXibPersonCatogeryKit;
+			productName = PXXibPersonCatogeryKit;
+			productReference = 75326BE5E763849BDAB7E829243BC761 /* PXXibPersonCatogeryKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		08FE7C0154F0BF2079DBC5BD9D7781CC /* Pods-PXXibPersonKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD61C3E0DE3515D97D6774C016EBC712 /* Build configuration list for PBXNativeTarget "Pods-PXXibPersonKit_Tests" */;
+			buildPhases = (
+				85FE306F5B3B520A2DA0293409ECBEE7 /* Headers */,
+				723E01797FABCA58A15231CFA8EAB8E9 /* Sources */,
+				173D9DEC7E969FF64FF9D062DCB68F99 /* Frameworks */,
+				49ACFB738037EEC21F27708BD3BCEABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C42C18AF35878AF22A056FA0D6E11B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-PXXibPersonKit_Tests";
+			productName = "Pods-PXXibPersonKit_Tests";
+			productReference = BC74746D7F4CAF776987AE9675C105AC /* Pods_PXXibPersonKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0E78A88B5FD4B0FA070AC051BF34A477 /* PXPersonInfoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAF2B51FBA0D31A49A62D25A75B78B9 /* Build configuration list for PBXNativeTarget "PXPersonInfoKit" */;
+			buildPhases = (
+				71FCB8E95A9F670D6C207C67BA92BD9E /* Headers */,
+				6DC65F948C32952428B7C387E5FCACFD /* Sources */,
+				52F6CDF85FC8F23D1FB758A50B4D40DF /* Frameworks */,
+				72E3A8155C8A891B566A0F311A3824D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5A082D29511A109081CF45FE04B9F99 /* PBXTargetDependency */,
+				6C80C4C4A5300533C9156D4AB1EFE838 /* PBXTargetDependency */,
+				027196E4FDC5213C457472AC730CF1EB /* PBXTargetDependency */,
+			);
+			name = PXPersonInfoKit;
+			productName = PXPersonInfoKit;
+			productReference = 8F6EE74C8422DC453E2CB78F490702F5 /* PXPersonInfoKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3DE88D60EC18A9F8E7AAE5991B1DE936 /* PXPersonPrefrenceCatogeryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DBBF3502A55ED2A6C9B103B81F136C0 /* Build configuration list for PBXNativeTarget "PXPersonPrefrenceCatogeryKit" */;
+			buildPhases = (
+				006557C17E6DBFDDA7F6B7A59ED229B6 /* Headers */,
+				F31D044B2B8B5AB6068AD43AAB098A59 /* Sources */,
+				ACDCA75235CFD398E7A22F58395D12F4 /* Frameworks */,
+				ECF9192845995A31058130DBFCCCD28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E93B05AEB9CB6CB94C7EF1F298A41D55 /* PBXTargetDependency */,
+			);
+			name = PXPersonPrefrenceCatogeryKit;
+			productName = PXPersonPrefrenceCatogeryKit;
+			productReference = 720F448C1E06468F356F933F3F190B0D /* PXPersonPrefrenceCatogeryKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4EF1EC18E975364A5E73D79D4E371E8F /* PXCommonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6828746B47579DCFE64920AC9C8589 /* Build configuration list for PBXNativeTarget "PXCommonKit" */;
+			buildPhases = (
+				0CD9B98FBBE6E8BFD0D2536E2A2C5187 /* Headers */,
+				3B3B1FEC2F0DE7336CA8A8935ABC9019 /* Sources */,
+				F787FDC20E1DC986B310525E8F85BC74 /* Frameworks */,
+				F6A29AC78639FC19DEBEB9B1E5174DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PXCommonKit;
+			productName = PXCommonKit;
+			productReference = 6293E7017F2CC2D966B0A99AEF899F6C /* PXCommonKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56EE353FA02572CDD3BF12CBD3BE9A75 /* Pods-PXXibPersonKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6111C3701292198405B8A069CE00ECAC /* Build configuration list for PBXNativeTarget "Pods-PXXibPersonKit_Example" */;
+			buildPhases = (
+				CBE2A642CDA9D8B1C83FA9D19443E01D /* Headers */,
+				0A04E12FD34B0E93D342BE102AEFB0CE /* Sources */,
+				B4F89CFE15A2FBE8C6E3913E4B888C35 /* Frameworks */,
+				A291904FE262F13025BE7058AE442908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1EBA6059E681F3FD1DC703F32A2C3A1 /* PBXTargetDependency */,
+				5C3919EEF7E42863AAB5DAE093AA4CE4 /* PBXTargetDependency */,
+				C3A537A7916B57A32EB128F526DED2F0 /* PBXTargetDependency */,
+				4F23FF198875E575A5FAF88D18019E1E /* PBXTargetDependency */,
+				BB59EF7A868E203565AFE8C815539A3E /* PBXTargetDependency */,
+				B709AC4A17D502B7F34F67D51A78A897 /* PBXTargetDependency */,
+				E43B86CA2A269E6737AE538D9D492967 /* PBXTargetDependency */,
+				9F53A1312490115D7C56BF413EA9142A /* PBXTargetDependency */,
+			);
+			name = "Pods-PXXibPersonKit_Example";
+			productName = "Pods-PXXibPersonKit_Example";
+			productReference = 8E0BF4062A80178B52E2623E75CDAAC4 /* Pods_PXXibPersonKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3369B102FC665E0387F7D83687AA5301 /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				60DF3B252E3FD21D667F274BDB81E3CA /* Headers */,
+				6743F40045C87906B0BE0456BFE8CEA0 /* Sources */,
+				F869CEC17949B9D77FB2EC29F0BAAB2C /* Frameworks */,
+				400F9571C43C05D59C6D163D02CBC274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CB33409F323CF778DEAEB7679E145AB /* PXXibPersonKit-PXXibPersonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1D8034882963B2B283D642C89C7CF8 /* Build configuration list for PBXNativeTarget "PXXibPersonKit-PXXibPersonKit" */;
+			buildPhases = (
+				E0FB076960F48B25835771880D1C0B39 /* Sources */,
+				ED615A0E07D9B7D71EF02D8F1C9B239B /* Frameworks */,
+				48B15B79CBA3FA11E520D55C4DEFAEFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PXXibPersonKit-PXXibPersonKit";
+			productName = "PXXibPersonKit-PXXibPersonKit";
+			productReference = E556304014BD2EB1C2FF251259069591 /* PXXibPersonKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A234D93608FD6701DF86EEF5D56B61C0 /* PXPersonInfoCatogeryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F852AACDFAA3E3E9F0FFBA84D3CD7730 /* Build configuration list for PBXNativeTarget "PXPersonInfoCatogeryKit" */;
+			buildPhases = (
+				F3780BDBF957A8D6C3C2F8FF03B8BE2F /* Headers */,
+				ED8EBD987629BC61F975C1FA54290808 /* Sources */,
+				7A8F8059C3E29B1D83B773AEB5B8E31D /* Frameworks */,
+				5D22FB613E8C9690DFC4B64183575200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2577CE213B8AE58A803B44E77CF85CC /* PBXTargetDependency */,
+			);
+			name = PXPersonInfoCatogeryKit;
+			productName = PXPersonInfoCatogeryKit;
+			productReference = 5DA2EC86E3DD18B9A72D349A4ACF6181 /* PXPersonInfoCatogeryKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D089477581173493535E1BF7BEF980E0 /* PXPersonInfoKit-PXPersonInfoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65BF75E6C070067A7457F658078F045E /* Build configuration list for PBXNativeTarget "PXPersonInfoKit-PXPersonInfoKit" */;
+			buildPhases = (
+				FF87DA86685A283ED08FD68D93149E87 /* Sources */,
+				F6B906DFC3578FC8B518A37E5D8E12C6 /* Frameworks */,
+				5B9A051D7BDA2F97462F40CD1B8D679C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PXPersonInfoKit-PXPersonInfoKit";
+			productName = "PXPersonInfoKit-PXPersonInfoKit";
+			productReference = 0D1DA13085686376E84289806FE39A5A /* PXPersonInfoKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DF4D8D43B5DB04100DAE50BE463729D8 /* PXXibPersonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41FC83512F36AAF474EE296EAEB3210 /* Build configuration list for PBXNativeTarget "PXXibPersonKit" */;
+			buildPhases = (
+				4A024B232AF22AE86BFA941CFC694412 /* Headers */,
+				9F78D289AAE38F39DC342CD5531F3EE0 /* Sources */,
+				138A4821A21F8DEF608657A89DD7A1A8 /* Frameworks */,
+				F28BBA63D99BA4B260F4954A7CF22446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEB81EC339F58FE2643DACC0533D5ED /* PBXTargetDependency */,
+				AECA73A5E084BD257E5A63D738805948 /* PBXTargetDependency */,
+				87ABA8737DB2F01160773A7E02A5A3B3 /* PBXTargetDependency */,
+			);
+			name = PXXibPersonKit;
+			productName = PXXibPersonKit;
+			productReference = 6DB2AF963EC51DA8E94076CE04D01566 /* PXXibPersonKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD655C62FD5D83CD233F5053FFCF347A /* PXPersonPrefenceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5E57EA16E377EA639537A7B569129F /* Build configuration list for PBXNativeTarget "PXPersonPrefenceKit" */;
+			buildPhases = (
+				9F325A8F01249C0BC5CD6481A7C5EA02 /* Headers */,
+				A2DF7FCE1BD4E8F1D1DAA45CA5189F6E /* Sources */,
+				7545F32ED301D5168C24AC930F7F6783 /* Frameworks */,
+				F79ABE1DC75C6D6690A98BDA574C44DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PXPersonPrefenceKit;
+			productName = PXPersonPrefenceKit;
+			productReference = 704E74A566DC11D0D225B38C197CFEC6 /* PXPersonPrefenceKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3365AA2A98C3149AE35B5AD6068B65B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */,
+				56EE353FA02572CDD3BF12CBD3BE9A75 /* Pods-PXXibPersonKit_Example */,
+				08FE7C0154F0BF2079DBC5BD9D7781CC /* Pods-PXXibPersonKit_Tests */,
+				4EF1EC18E975364A5E73D79D4E371E8F /* PXCommonKit */,
+				A234D93608FD6701DF86EEF5D56B61C0 /* PXPersonInfoCatogeryKit */,
+				0E78A88B5FD4B0FA070AC051BF34A477 /* PXPersonInfoKit */,
+				D089477581173493535E1BF7BEF980E0 /* PXPersonInfoKit-PXPersonInfoKit */,
+				FD655C62FD5D83CD233F5053FFCF347A /* PXPersonPrefenceKit */,
+				3DE88D60EC18A9F8E7AAE5991B1DE936 /* PXPersonPrefrenceCatogeryKit */,
+				04438F372064852255F60BE49DDEE508 /* PXXibPersonCatogeryKit */,
+				DF4D8D43B5DB04100DAE50BE463729D8 /* PXXibPersonKit */,
+				9CB33409F323CF778DEAEB7679E145AB /* PXXibPersonKit-PXXibPersonKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E4FABF25A722E1BA3F502E0A8769D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400F9571C43C05D59C6D163D02CBC274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B15B79CBA3FA11E520D55C4DEFAEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446FA324CF2FB533CA6FD4900728E497 /* person.png in Resources */,
+				6E263E4E31CDC5FDEAC525163D6EDECE /* PXXibPersonViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49ACFB738037EEC21F27708BD3BCEABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B9A051D7BDA2F97462F40CD1B8D679C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D07B1362E477B2DFD028EF008E1934 /* person.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D22FB613E8C9690DFC4B64183575200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72E3A8155C8A891B566A0F311A3824D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C1D7884335AE27C819532A552A3BCE /* PXPersonInfoKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A291904FE262F13025BE7058AE442908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF9192845995A31058130DBFCCCD28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28BBA63D99BA4B260F4954A7CF22446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BA8B021510B49C3EC42F515BE4D158 /* PXXibPersonKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A29AC78639FC19DEBEB9B1E5174DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F79ABE1DC75C6D6690A98BDA574C44DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A04E12FD34B0E93D342BE102AEFB0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB5FD73DCC0B9E6F5363044FE1959F2 /* Pods-PXXibPersonKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B3652E3E5BE7ED653F34B36A5910D89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598818E4CACC4C8F5363766F9B828E76 /* CTMediator+XibPerson.m in Sources */,
+				C28808161B07F9F9AA770CF5E0507898 /* PXXibPersonCatogeryKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3B1FEC2F0DE7336CA8A8935ABC9019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF9924A7D0671CA1CB543ADEB673770 /* PXCommonKit-dummy.m in Sources */,
+				D10C295774B1DECF1CA5B3B7B82A42E8 /* UIImage+pxBundle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6743F40045C87906B0BE0456BFE8CEA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73EEAFFB9533F32313735D9F7B20579 /* CTMediator-dummy.m in Sources */,
+				7A47DBE54E38761F7F2884DE0B660712 /* CTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC65F948C32952428B7C387E5FCACFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DED08BB2B0F70E8738A72C42FF0366 /* PXPersonInfoKit-dummy.m in Sources */,
+				AEA058D390A4A32A1926933FB25708CF /* PXPersonInfoViewController.m in Sources */,
+				D12592FDE1E7ED6EECBF612924FF8679 /* Target_PXPersonInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723E01797FABCA58A15231CFA8EAB8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9637C10EC761020372537E811C498BC9 /* Pods-PXXibPersonKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F78D289AAE38F39DC342CD5531F3EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A311A42B1B9D280F626D02DEBFAE24 /* NSBundle+SubBundle.m in Sources */,
+				D32B514299283BB33956EA5D0DD433DA /* PXXibPersonKit-dummy.m in Sources */,
+				CDEE814A559141101BF86824A4F12EB3 /* PXXibPersonViewController.m in Sources */,
+				5C439214C4261C8BFD111D5FD4D487C4 /* Target_xibPersonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DF7FCE1BD4E8F1D1DAA45CA5189F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF35E59AF97A8D68F3719DB022A2302 /* PXPersonPrefenceKit-dummy.m in Sources */,
+				9E285CDA4D049B00AC629A0CEAE4D369 /* PXPersonPreferenceViewController.m in Sources */,
+				B938627965371532CEDDF7FB4C709AE4 /* Target_PXPersonPreferenceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FB076960F48B25835771880D1C0B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8EBD987629BC61F975C1FA54290808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C98A9F4E079E326EE8BDBB973C595F7 /* CTMediator+PersonInfo.m in Sources */,
+				6B26394FBEF23C543E21DD22214EBA5C /* PXPersonInfoCatogeryKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31D044B2B8B5AB6068AD43AAB098A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CB5A6A85E596886A7C6C6A69F345BB /* CTMediator+PersonPreference.m in Sources */,
+				4DB0CB58A081BF92444EE786A4F5A435 /* PXPersonPrefrenceCatogeryKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF87DA86685A283ED08FD68D93149E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		027196E4FDC5213C457472AC730CF1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXPersonPrefrenceCatogeryKit;
+			target = 3DE88D60EC18A9F8E7AAE5991B1DE936 /* PXPersonPrefrenceCatogeryKit */;
+			targetProxy = ABA15E3934350EFC82E535A51356F23E /* PBXContainerItemProxy */;
+		};
+		1B85FE01BF472B61C690C9A2B72195F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 1CCFEDF0DB85227E6C80F2D7CC47F8B4 /* PBXContainerItemProxy */;
+		};
+		2C42C18AF35878AF22A056FA0D6E11B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PXXibPersonKit_Example";
+			target = 56EE353FA02572CDD3BF12CBD3BE9A75 /* Pods-PXXibPersonKit_Example */;
+			targetProxy = 61F8268BE82CFE6EFEB1BE9629DD4D03 /* PBXContainerItemProxy */;
+		};
+		4F23FF198875E575A5FAF88D18019E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXPersonInfoKit;
+			target = 0E78A88B5FD4B0FA070AC051BF34A477 /* PXPersonInfoKit */;
+			targetProxy = 3819606F07BA8A7971724335E850792F /* PBXContainerItemProxy */;
+		};
+		5C3919EEF7E42863AAB5DAE093AA4CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXCommonKit;
+			target = 4EF1EC18E975364A5E73D79D4E371E8F /* PXCommonKit */;
+			targetProxy = FAC68FB9048FB9ED209376EC73393BB6 /* PBXContainerItemProxy */;
+		};
+		6C80C4C4A5300533C9156D4AB1EFE838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PXPersonInfoKit-PXPersonInfoKit";
+			target = D089477581173493535E1BF7BEF980E0 /* PXPersonInfoKit-PXPersonInfoKit */;
+			targetProxy = 72DE42D88C449154224CCD74E2FE6923 /* PBXContainerItemProxy */;
+		};
+		87ABA8737DB2F01160773A7E02A5A3B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PXXibPersonKit-PXXibPersonKit";
+			target = 9CB33409F323CF778DEAEB7679E145AB /* PXXibPersonKit-PXXibPersonKit */;
+			targetProxy = 7E466592517146B3FB2DBF00BAAD4404 /* PBXContainerItemProxy */;
+		};
+		9F53A1312490115D7C56BF413EA9142A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXXibPersonKit;
+			target = DF4D8D43B5DB04100DAE50BE463729D8 /* PXXibPersonKit */;
+			targetProxy = FC1727BF0C10B66119239B1206A31A03 /* PBXContainerItemProxy */;
+		};
+		A2577CE213B8AE58A803B44E77CF85CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = E503E1FCAFEB8AEFAA830E6E330C076B /* PBXContainerItemProxy */;
+		};
+		AECA73A5E084BD257E5A63D738805948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXXibPersonCatogeryKit;
+			target = 04438F372064852255F60BE49DDEE508 /* PXXibPersonCatogeryKit */;
+			targetProxy = 86687C4886D823BAFF85CDD20FDCD3D4 /* PBXContainerItemProxy */;
+		};
+		B709AC4A17D502B7F34F67D51A78A897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXPersonPrefrenceCatogeryKit;
+			target = 3DE88D60EC18A9F8E7AAE5991B1DE936 /* PXPersonPrefrenceCatogeryKit */;
+			targetProxy = 5AA79BD284A78155B35BA0042B62D9A8 /* PBXContainerItemProxy */;
+		};
+		BB59EF7A868E203565AFE8C815539A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXPersonPrefenceKit;
+			target = FD655C62FD5D83CD233F5053FFCF347A /* PXPersonPrefenceKit */;
+			targetProxy = 9BC3F8FBF4BA11773566BE7E2A85EE14 /* PBXContainerItemProxy */;
+		};
+		C3A537A7916B57A32EB128F526DED2F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXPersonInfoCatogeryKit;
+			target = A234D93608FD6701DF86EEF5D56B61C0 /* PXPersonInfoCatogeryKit */;
+			targetProxy = D01914715DD454D541500128B83A2909 /* PBXContainerItemProxy */;
+		};
+		E43B86CA2A269E6737AE538D9D492967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXXibPersonCatogeryKit;
+			target = 04438F372064852255F60BE49DDEE508 /* PXXibPersonCatogeryKit */;
+			targetProxy = 45C0AE8FD4B912078C683E6E8CE210A3 /* PBXContainerItemProxy */;
+		};
+		E5A082D29511A109081CF45FE04B9F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXCommonKit;
+			target = 4EF1EC18E975364A5E73D79D4E371E8F /* PXCommonKit */;
+			targetProxy = ECC10AE5EE2EBBE879E5F42A75D0BD7D /* PBXContainerItemProxy */;
+		};
+		E93B05AEB9CB6CB94C7EF1F298A41D55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = E11F175A425E2223861D0D6DEB66912D /* PBXContainerItemProxy */;
+		};
+		F1EBA6059E681F3FD1DC703F32A2C3A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 5AAB64137B4286D1C3380C0D4AF10103 /* PBXContainerItemProxy */;
+		};
+		FAEB81EC339F58FE2643DACC0533D5ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXCommonKit;
+			target = 4EF1EC18E975364A5E73D79D4E371E8F /* PXCommonKit */;
+			targetProxy = EC9717CCBAA83A721027DDF70CA533AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0650C5CA0D930EFAD224E10D02AF9B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0DCB47C965CCE207BDB3DE632B82AC /* PXPersonInfoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PXPersonInfoKit/PXPersonInfoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXPersonInfoKit/PXPersonInfoKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXPersonInfoKit/PXPersonInfoKit.modulemap";
+				PRODUCT_MODULE_NAME = PXPersonInfoKit;
+				PRODUCT_NAME = PXPersonInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0E64EDCAE869564AED4295F8A7F68D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0DCB47C965CCE207BDB3DE632B82AC /* PXPersonInfoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXPersonInfoKit";
+				INFOPLIST_FILE = "Target Support Files/PXPersonInfoKit/ResourceBundle-PXPersonInfoKit-PXPersonInfoKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PXPersonInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		13EA30BFD5244BE816DBDDB7AD32B73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F288DFEC536D3A79833BE70D52B9C607 /* PXXibPersonKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PXXibPersonKit/PXXibPersonKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXXibPersonKit/PXXibPersonKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXXibPersonKit/PXXibPersonKit.modulemap";
+				PRODUCT_MODULE_NAME = PXXibPersonKit;
+				PRODUCT_NAME = PXXibPersonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		177EB8E444FF2164EFAEE69DC66AA29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8589CE61DE0DA4E6D8874140DC5C71AB /* PXPersonInfoCatogeryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PXPersonInfoCatogeryKit/PXPersonInfoCatogeryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXPersonInfoCatogeryKit/PXPersonInfoCatogeryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXPersonInfoCatogeryKit/PXPersonInfoCatogeryKit.modulemap";
+				PRODUCT_MODULE_NAME = PXPersonInfoCatogeryKit;
+				PRODUCT_NAME = PXPersonInfoCatogeryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22C06AE99F99D38DB61412182E419C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9169DDDB6214518D78CBFF6F101AD10B /* PXPersonPrefenceKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PXPersonPrefenceKit/PXPersonPrefenceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXPersonPrefenceKit/PXPersonPrefenceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXPersonPrefenceKit/PXPersonPrefenceKit.modulemap";
+				PRODUCT_MODULE_NAME = PXPersonPrefenceKit;
+				PRODUCT_NAME = PXPersonPrefenceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A98034768B6B6451B9EAD2BAA21AA42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C149E69886CC95EE161B93C7B0ABA113 /* Pods-PXXibPersonKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PXXibPersonKit_Tests/Pods-PXXibPersonKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXXibPersonKit_Tests/Pods-PXXibPersonKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B9EEF6828FA937C63DFD27082C046A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB1F926CE8CF48B3A14272B4B1775F13 /* PXXibPersonCatogeryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PXXibPersonCatogeryKit/PXXibPersonCatogeryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXXibPersonCatogeryKit/PXXibPersonCatogeryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXXibPersonCatogeryKit/PXXibPersonCatogeryKit.modulemap";
+				PRODUCT_MODULE_NAME = PXXibPersonCatogeryKit;
+				PRODUCT_NAME = PXXibPersonCatogeryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BC6E3F70C95F84E9A9720FD5A6CE805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07872FED16C28DC607FDEC14504B9F7F /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		526D6D9EF039FF2BC23B6D70C00D86C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F7CA2D960B7BC613F0E708F8C1484F /* Pods-PXXibPersonKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PXXibPersonKit_Tests/Pods-PXXibPersonKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXXibPersonKit_Tests/Pods-PXXibPersonKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		692C01AD81CE215B16F54F971A8CBF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8589CE61DE0DA4E6D8874140DC5C71AB /* PXPersonInfoCatogeryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PXPersonInfoCatogeryKit/PXPersonInfoCatogeryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXPersonInfoCatogeryKit/PXPersonInfoCatogeryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXPersonInfoCatogeryKit/PXPersonInfoCatogeryKit.modulemap";
+				PRODUCT_MODULE_NAME = PXPersonInfoCatogeryKit;
+				PRODUCT_NAME = PXPersonInfoCatogeryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79FD120A6DEC33C3A65D171FAC0D804A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F6342E48C626498A9D8A041B9CD1D9 /* Pods-PXXibPersonKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PXXibPersonKit_Example/Pods-PXXibPersonKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXXibPersonKit_Example/Pods-PXXibPersonKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		84331E953C225CAC68B31388F3974BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA4B16F705C5A0AAB42EC1BF35622B3 /* PXPersonPrefrenceCatogeryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PXPersonPrefrenceCatogeryKit/PXPersonPrefrenceCatogeryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXPersonPrefrenceCatogeryKit/PXPersonPrefrenceCatogeryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXPersonPrefrenceCatogeryKit/PXPersonPrefrenceCatogeryKit.modulemap";
+				PRODUCT_MODULE_NAME = PXPersonPrefrenceCatogeryKit;
+				PRODUCT_NAME = PXPersonPrefrenceCatogeryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89F191914D26C2B096370C4962965092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0DCB47C965CCE207BDB3DE632B82AC /* PXPersonInfoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PXPersonInfoKit/PXPersonInfoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXPersonInfoKit/PXPersonInfoKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXPersonInfoKit/PXPersonInfoKit.modulemap";
+				PRODUCT_MODULE_NAME = PXPersonInfoKit;
+				PRODUCT_NAME = PXPersonInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9225766CAA57DF290A9A6F428020C30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07872FED16C28DC607FDEC14504B9F7F /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		929ED76C17B041916B7E61DF82F92C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F288DFEC536D3A79833BE70D52B9C607 /* PXXibPersonKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PXXibPersonKit/PXXibPersonKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXXibPersonKit/PXXibPersonKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXXibPersonKit/PXXibPersonKit.modulemap";
+				PRODUCT_MODULE_NAME = PXXibPersonKit;
+				PRODUCT_NAME = PXXibPersonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A302405F73CE20BC2A85D9238C5174FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F288DFEC536D3A79833BE70D52B9C607 /* PXXibPersonKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXXibPersonKit";
+				INFOPLIST_FILE = "Target Support Files/PXXibPersonKit/ResourceBundle-PXXibPersonKit-PXXibPersonKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PXXibPersonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A990FD083BB55C560FEF05544E8E57E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9169DDDB6214518D78CBFF6F101AD10B /* PXPersonPrefenceKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PXPersonPrefenceKit/PXPersonPrefenceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXPersonPrefenceKit/PXPersonPrefenceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXPersonPrefenceKit/PXPersonPrefenceKit.modulemap";
+				PRODUCT_MODULE_NAME = PXPersonPrefenceKit;
+				PRODUCT_NAME = PXPersonPrefenceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD4494B40B2ED364F92C0DF1FCD53ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F288DFEC536D3A79833BE70D52B9C607 /* PXXibPersonKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXXibPersonKit";
+				INFOPLIST_FILE = "Target Support Files/PXXibPersonKit/ResourceBundle-PXXibPersonKit-PXXibPersonKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PXXibPersonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C4C9D1D093EEAB4AA5AEBE01E26FE246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA4B16F705C5A0AAB42EC1BF35622B3 /* PXPersonPrefrenceCatogeryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PXPersonPrefrenceCatogeryKit/PXPersonPrefrenceCatogeryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXPersonPrefrenceCatogeryKit/PXPersonPrefrenceCatogeryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXPersonPrefrenceCatogeryKit/PXPersonPrefrenceCatogeryKit.modulemap";
+				PRODUCT_MODULE_NAME = PXPersonPrefrenceCatogeryKit;
+				PRODUCT_NAME = PXPersonPrefrenceCatogeryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C824CBF06287DBE745558904D9F6BFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA877D85652641D3ADC31594E7FEA190 /* Pods-PXXibPersonKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PXXibPersonKit_Example/Pods-PXXibPersonKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PXXibPersonKit_Example/Pods-PXXibPersonKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D529C3C1F84D8D4046075A41D548842E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2847439697AA83A784BDA2EA53995942 /* PXCommonKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PXCommonKit/PXCommonKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXCommonKit/PXCommonKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXCommonKit/PXCommonKit.modulemap";
+				PRODUCT_MODULE_NAME = PXCommonKit;
+				PRODUCT_NAME = PXCommonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0F52746112A3F3A16A4AF2EB58A25B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB1F926CE8CF48B3A14272B4B1775F13 /* PXXibPersonCatogeryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PXXibPersonCatogeryKit/PXXibPersonCatogeryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXXibPersonCatogeryKit/PXXibPersonCatogeryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXXibPersonCatogeryKit/PXXibPersonCatogeryKit.modulemap";
+				PRODUCT_MODULE_NAME = PXXibPersonCatogeryKit;
+				PRODUCT_NAME = PXXibPersonCatogeryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F8F2E3B6C4C3F2C87F8B17B179C21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0DCB47C965CCE207BDB3DE632B82AC /* PXPersonInfoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXPersonInfoKit";
+				INFOPLIST_FILE = "Target Support Files/PXPersonInfoKit/ResourceBundle-PXPersonInfoKit-PXPersonInfoKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PXPersonInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E6A24BC535B8DA0EC65EA0AF33275E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2847439697AA83A784BDA2EA53995942 /* PXCommonKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PXCommonKit/PXCommonKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXCommonKit/PXCommonKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXCommonKit/PXCommonKit.modulemap";
+				PRODUCT_MODULE_NAME = PXCommonKit;
+				PRODUCT_NAME = PXCommonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		278E16E1677A9E018A4E884F6E741059 /* Build configuration list for PBXNativeTarget "PXXibPersonCatogeryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9EEF6828FA937C63DFD27082C046A5 /* Debug */,
+				E0F52746112A3F3A16A4AF2EB58A25B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3369B102FC665E0387F7D83687AA5301 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9225766CAA57DF290A9A6F428020C30E /* Debug */,
+				4BC6E3F70C95F84E9A9720FD5A6CE805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DBBF3502A55ED2A6C9B103B81F136C0 /* Build configuration list for PBXNativeTarget "PXPersonPrefrenceCatogeryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84331E953C225CAC68B31388F3974BBA /* Debug */,
+				C4C9D1D093EEAB4AA5AEBE01E26FE246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1D8034882963B2B283D642C89C7CF8 /* Build configuration list for PBXNativeTarget "PXXibPersonKit-PXXibPersonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A302405F73CE20BC2A85D9238C5174FF /* Debug */,
+				AD4494B40B2ED364F92C0DF1FCD53ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6111C3701292198405B8A069CE00ECAC /* Build configuration list for PBXNativeTarget "Pods-PXXibPersonKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C824CBF06287DBE745558904D9F6BFCA /* Debug */,
+				79FD120A6DEC33C3A65D171FAC0D804A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65BF75E6C070067A7457F658078F045E /* Build configuration list for PBXNativeTarget "PXPersonInfoKit-PXPersonInfoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F8F2E3B6C4C3F2C87F8B17B179C21D /* Debug */,
+				0E64EDCAE869564AED4295F8A7F68D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6828746B47579DCFE64920AC9C8589 /* Build configuration list for PBXNativeTarget "PXCommonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D529C3C1F84D8D4046075A41D548842E /* Debug */,
+				E6A24BC535B8DA0EC65EA0AF33275E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAF2B51FBA0D31A49A62D25A75B78B9 /* Build configuration list for PBXNativeTarget "PXPersonInfoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0650C5CA0D930EFAD224E10D02AF9B27 /* Debug */,
+				89F191914D26C2B096370C4962965092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D5E57EA16E377EA639537A7B569129F /* Build configuration list for PBXNativeTarget "PXPersonPrefenceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A990FD083BB55C560FEF05544E8E57E9 /* Debug */,
+				22C06AE99F99D38DB61412182E419C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD61C3E0DE3515D97D6774C016EBC712 /* Build configuration list for PBXNativeTarget "Pods-PXXibPersonKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A98034768B6B6451B9EAD2BAA21AA42 /* Debug */,
+				526D6D9EF039FF2BC23B6D70C00D86C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41FC83512F36AAF474EE296EAEB3210 /* Build configuration list for PBXNativeTarget "PXXibPersonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929ED76C17B041916B7E61DF82F92C82 /* Debug */,
+				13EA30BFD5244BE816DBDDB7AD32B73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F852AACDFAA3E3E9F0FFBA84D3CD7730 /* Build configuration list for PBXNativeTarget "PXPersonInfoCatogeryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692C01AD81CE215B16F54F971A8CBF28 /* Debug */,
+				177EB8E444FF2164EFAEE69DC66AA29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
